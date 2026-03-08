@@ -1,0 +1,36 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace files
+*.mod
+*.sum
+go.sum
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temp files
+tmp/
+temp/
+
+# Binaries
+cmd/auth/auth
+cmd/tasks/tasks
+auth-server
+tasks-server
+
+# Docker
+*.pid
